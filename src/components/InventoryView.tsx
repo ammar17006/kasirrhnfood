@@ -111,7 +111,7 @@ export const InventoryView: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `laporan-stok-restodash-${new Date().toISOString().slice(0, 10)}.csv`;
+    a.download = `laporan-stok-restoren-${new Date().toISOString().slice(0, 10)}.csv`;
     a.click();
     URL.revokeObjectURL(url);
   };

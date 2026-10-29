@@ -1,5 +1,5 @@
 {
-  "name": "RestoDash POS - Sistem Kasir & Inventaris Pintar",
+  "name": "RestoRen POS - Sistem Kasir & Inventaris Pintar",
   "description": "Sistem kasir profesional lengkap dengan cetak struk otomatis, laporan penjualan harian & analitik, pembayaran digital (QRIS, E-Wallet, Transfer), manajemen stok real-time, notifikasi stok menipis, multi-user hak akses, serta backup otomatis dan ekspor PDF/Excel.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

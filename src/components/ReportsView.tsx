@@ -58,7 +58,7 @@ export const ReportsView: React.FC = () => {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `laporan-penjualan-restodash-${filterPeriod}-${now.toISOString().slice(0, 10)}.csv`;
+    a.download = `laporan-penjualan-restoren-${filterPeriod}-${now.toISOString().slice(0, 10)}.csv`;
     a.click();
     URL.revokeObjectURL(url);
   };

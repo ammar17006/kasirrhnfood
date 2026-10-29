@@ -291,7 +291,7 @@ export const StaffView: React.FC = () => {
                 <label className="font-bold text-slate-700 block mb-1">Email / Kontak:</label>
                 <input
                   type="email"
-                  placeholder="staf@restodash.id"
+                  placeholder="staf@restoren.id"
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="w-full p-2.5 bg-slate-50 border border-slate-200 rounded-xl"

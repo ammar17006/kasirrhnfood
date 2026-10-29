@@ -52,7 +52,7 @@ export const Navbar: React.FC = () => {
 
   return (
     <header className="h-16 bg-white border-b border-slate-200/70 px-6 flex items-center justify-between shrink-0 select-none z-10">
-      {/* Search Input matching RestoDash */}
+      {/* Search Input for RestoRen */}
       <div className="relative w-80 lg:w-96">
         <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
           <Search className="w-4 h-4" />
